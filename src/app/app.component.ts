@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
 
+//this is a metadata 
+//double curly braces define databinding
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  title = 'Tour of Heros';
 }
